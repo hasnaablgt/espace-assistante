@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <title>Visual Admin Dashboard - Data Visualization</title>
+    <meta name="description" content="">
+    <meta name="author" content="templatemo">
+    <!-- 
+    Visual Admin Template
+    http://www.templatemo.com/preview/templatemo_455_visual_admin
+    -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/templatemo-style.css" rel="stylesheet">
+
+    <style>
+    /*css test*/
+
+.contact-form{
+    background: #fff;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    width: 70%;
+    font-size: 20px;
+    color: #0b4272;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: 10%;
+    margin-top:-10%;
+    
+}
+.contact-form h1{
+    margin-bottom: 18%;
+    margin-top: 4%;
+    text-align: center;
+    color: #a7a6a9;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 3.5%;
+    background: #0062cc;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    clear:right;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+.templatemo-content-container{
+            background-color: #FFFFFF;
+            padding:  10px 60px 1px 60px;
+            
+
+        }
+.qw{
+margin-left: 1000px;
+background: #0b4272;
+color: #eeeeee;
+border-radius: 30px;
+ padding-left: 16px !important;
+  padding-right: 16px !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  cursor: pointer;
+        }
+.btn{
+    margin-left: 160px;
+    color: #0b4272;
+    width: 140px;
+    height: 40px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 20px;
+
+        }
+    	
+    </style>
+    </head>
+
+    <body>
+    	<div class="templatemo-flex-row">
+      <div class="templatemo-sidebar">
+        <header class="templatemo-site-header">
+          <div class="square"></div>
+          <h1 >L'assistante</h1>
+        </header>
+        <div class="profile-photo-container">
+          <img src="images/profile-photo.jpg" alt="Profile Photo" class="img-responsive">  
+          <div class="profile-photo-overlay"></div>
+        </div>      
+        
+        
+        <div class="mobile-menu-icon">
+            <i class="fa fa-bars"></i>
+          </div>
+        <nav class="templatemo-left-nav">          
+          <ul>
+            <li><a href="fullcalendar.html"><i class="fa fa-calendar"></i>Les RDVS</a></li>
+            <li><a href="Patient-dossier.html"><i class="fa fa-credit-card"></i>Dossiers des patients</a></li>
+            <li><a href="#" class="active"><i class="fa fa-database fa-fw"></i>Les recettes</a></li>
+          </ul>  
+        </nav>
+      </div>
+      <!-- Main content --> 
+       <div class="col-1">
+
+         <div class="templatemo-top-nav-container" style="background-color:#84bfef;padding:12.8px 0px">
+          <div class="row">
+            <nav class="templatemo-top-nav col-lg-12 col-md-12" role="navigation">
+              <ul class="text-uppercase">
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li class="qw"><a href="#"></a>Se deconnecter</li>
+              </ul>  
+            </nav> 
+          </div>
+        </div>
+
+        <div class="templatemo-content-container" >         
+          <div class="templatemo-content-widget white-bg" style="box-shadow:10px 20px 20px #a7a6a9">
+          	<div class="container contact-form" >
+            <form method="post" >
+                <h1>Paiement des patients</h1>
+               <div class="row">
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <label for="inputPrenom">Nom</label>
+                            <input type="text" class="form-control" id="inputNom" placeholder="Nom"  />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPrenom">Prenom</label>
+                            <input type="text" class="form-control" id="inputPrenom"  placeholder="Prenom" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPrenom">CIN</label>
+                            <input type="text" class="form-control" id="inputCIN" placeholder="CIN" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputDate">Date</label>
+                            <input type="date" class="form-control" id="inputDate">
+                        </div>
+                        <div class="form-group contact-form dropdown">
+                            <label for="montant">Montant</label>
+                            <select name="montant" class='form-control' style="width: 440px">
+                                <option >Espèce</option>
+                                <option >Chèque</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <button class="btn btn-dark" type="submit">Enregistrer</button>
+                           </div>
+                    </div>
+                    
+                </div>
+            </form>
+</div>
+
+
+          	 </div>
+          </div>
+
+
+    </body>
+</html>
